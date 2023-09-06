@@ -1,0 +1,58 @@
+/* header.module.css */
+
+/* Header container */
+.header {
+    background-color: #333;
+    color: white; /* Set the text color to white */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white; /* Set the text color to white */
+    transition: color 0.3s; /* Add a smooth text color transition */
+  }
+  
+  /* Navigation list */
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Navigation item */
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  /* Remove margin for the last navigation item */
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  /* Navigation link styling */
+  .nav-link {
+    text-decoration: none;
+    color: white; /* Set the text color to white */
+    transition: color 0.3s; /* Add a smooth text color transition */
+  }
+  
+  /* Example styling for active navigation link */
+  .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline; /* Add an underline for active links */
+  }
+  
+  /* Hover effect for links */
+  .nav-link:hover {
+    color: #ff9900; /* Change text color on hover */
+  }
+  

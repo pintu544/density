@@ -1,0 +1,160 @@
+.paper {
+    height: 500px;
+    width: 90%;
+    margin-left: 4rem; /* Adjust the value to your desired margin */
+  margin-right: 4rem;
+  background-color: blanchedalmond;
+}
+.phoneImage {
+    width: 200px; /* Adjust the width as needed (e.g., '300px' or '50%') */
+    height: 200px;
+    margin: 10%; /* Automatically adjust the height to maintain the aspect ratio */
+  }
+ .icon{
+    width: 150px; /* Adjust the width as needed (e.g., '300px' or '50%') */
+    height: 50px;
+    padding: 0;
+ }
+  /* navbar.module.css */
+/* navbar.module.css */
+
+/* ...other styles... */
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #0071ff;
+    border-radius: 50%;
+    position: absolute;
+    animation: moveCircle 2s linear infinite; /* Animation for continuous movement */
+    z-index: 1;
+    margin: 5%;
+  }
+  
+  @keyframes moveCircle {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px); /* Adjust the distance as needed */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* ...other styles... */
+  
+.content {
+    display: flex;
+    justify-content: space-between; /* Arrange content in a row with space between */
+  }
+  
+  .leftContainer {
+    width: 50%; /* Left side takes up 50% of the container width */
+  }
+  
+  .rightContainer {
+    width: 50%; /* Right side takes up 50% of the container width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically within the right container */
+  }
+  .textContainer{
+    margin: 5%;
+    font-size: larger;
+  }
+  
+ .textContainerh{
+font-size: 50px;
+font-weight: 400;
+  }
+  
+  /* Other styles for text content, buttons, and Chakra UI component as needed */
+  /* Global Styles */
+
+/* Paper Container */
+.paper {
+    height: 500px;
+    width: 90%;
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: blanchedalmond;
+  }
+  
+  /* Phone Image */
+  .phoneImage {
+    width: 200px;
+    height: 200px;
+    margin: 10%; /* Automatically adjust the height to maintain the aspect ratio */
+  }
+  
+  /* Icon */
+  .icon {
+    width: 150px;
+    height: 50px;
+    padding: 0;
+  }
+  
+  /* Navbar Styles */
+  
+  /* ...other styles... */
+  
+  /* Animated Circle */
+  .circle {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #0071ff;
+    border-radius: 50%;
+    position: absolute;
+    animation: moveCircle 2s linear infinite; /* Animation for continuous movement */
+    z-index: 1;
+    margin: 5%;
+  }
+  
+  @keyframes moveCircle {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px); /* Adjust the distance as needed */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* ...other styles... */
+  
+  /* Content Container */
+  .content {
+    display: flex;
+    justify-content: space-between; /* Arrange content in a row with space between */
+  }
+  
+  /* Left Container */
+  .leftContainer {
+    width: 50%; /* Left side takes up 50% of the container width */
+  }
+  
+  /* Right Container */
+  .rightContainer {
+    width: 50%; /* Right side takes up 50% of the container width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically within the right container */
+  }
+  
+  /* Text Container */
+  .textContainer {
+    margin: 5%;
+    font-size: larger;
+  }
+  
+  /* Heading Text */
+  .textContainer h1 {
+    font-size: 50px;
+    font-weight: 400;
+  }
+  
+  /* ...other styles... */
+  
